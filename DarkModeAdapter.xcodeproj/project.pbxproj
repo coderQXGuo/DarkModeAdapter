@@ -1,0 +1,396 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC3F0932251630CE00AE5D8F /* Color.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC3F0931251630CE00AE5D8F /* Color.xcassets */; };
+		DC3F09362516312900AE5D8F /* UIColor+Adapter.m in Sources */ = {isa = PBXBuildFile; fileRef = DC3F09352516312900AE5D8F /* UIColor+Adapter.m */; };
+		DC3F09392516313A00AE5D8F /* UIView+Adapter.m in Sources */ = {isa = PBXBuildFile; fileRef = DC3F09382516313A00AE5D8F /* UIView+Adapter.m */; };
+		DC3F093C2516316D00AE5D8F /* AdapterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DC3F093B2516316D00AE5D8F /* AdapterManager.m */; };
+		DC3F093F2516319200AE5D8F /* NSString+Adapter.m in Sources */ = {isa = PBXBuildFile; fileRef = DC3F093E2516319200AE5D8F /* NSString+Adapter.m */; };
+		DC3F09412516329C00AE5D8F /* DarkModeAdapter.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DC3F09402516329C00AE5D8F /* DarkModeAdapter.bundle */; };
+		DC3F09482516435F00AE5D8F /* UIColor+ColorName.m in Sources */ = {isa = PBXBuildFile; fileRef = DC3F09472516435F00AE5D8F /* UIColor+ColorName.m */; };
+		DC80C4A22515E33100344E4A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC80C4A12515E33100344E4A /* AppDelegate.m */; };
+		DC80C4A52515E33100344E4A /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC80C4A42515E33100344E4A /* SceneDelegate.m */; };
+		DC80C4A82515E33100344E4A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC80C4A72515E33100344E4A /* ViewController.m */; };
+		DC80C4AB2515E33100344E4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC80C4A92515E33100344E4A /* Main.storyboard */; };
+		DC80C4AD2515E33400344E4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC80C4AC2515E33400344E4A /* Assets.xcassets */; };
+		DC80C4B02515E33400344E4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC80C4AE2515E33400344E4A /* LaunchScreen.storyboard */; };
+		DC80C4B32515E33400344E4A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DC80C4B22515E33400344E4A /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DC3F0931251630CE00AE5D8F /* Color.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Color.xcassets; sourceTree = "<group>"; };
+		DC3F09342516312900AE5D8F /* UIColor+Adapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+Adapter.h"; sourceTree = "<group>"; };
+		DC3F09352516312900AE5D8F /* UIColor+Adapter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Adapter.m"; sourceTree = "<group>"; };
+		DC3F09372516313A00AE5D8F /* UIView+Adapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Adapter.h"; sourceTree = "<group>"; };
+		DC3F09382516313A00AE5D8F /* UIView+Adapter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Adapter.m"; sourceTree = "<group>"; };
+		DC3F093A2516316D00AE5D8F /* AdapterManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdapterManager.h; sourceTree = "<group>"; };
+		DC3F093B2516316D00AE5D8F /* AdapterManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdapterManager.m; sourceTree = "<group>"; };
+		DC3F093D2516319200AE5D8F /* NSString+Adapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Adapter.h"; sourceTree = "<group>"; };
+		DC3F093E2516319200AE5D8F /* NSString+Adapter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Adapter.m"; sourceTree = "<group>"; };
+		DC3F09402516329C00AE5D8F /* DarkModeAdapter.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = DarkModeAdapter.bundle; sourceTree = "<group>"; };
+		DC3F09462516435F00AE5D8F /* UIColor+ColorName.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+ColorName.h"; sourceTree = "<group>"; };
+		DC3F09472516435F00AE5D8F /* UIColor+ColorName.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ColorName.m"; sourceTree = "<group>"; };
+		DC3F09492516442D00AE5D8F /* ConstantsHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConstantsHeader.h; sourceTree = "<group>"; };
+		DC80C49D2515E33100344E4A /* DarkModeAdapter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DarkModeAdapter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC80C4A02515E33100344E4A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DC80C4A12515E33100344E4A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DC80C4A32515E33100344E4A /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		DC80C4A42515E33100344E4A /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		DC80C4A62515E33100344E4A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DC80C4A72515E33100344E4A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DC80C4AA2515E33100344E4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC80C4AC2515E33400344E4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC80C4AF2515E33400344E4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DC80C4B12515E33400344E4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC80C4B22515E33400344E4A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC80C49A2515E33100344E4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC3F09332516310F00AE5D8F /* Adapter */ = {
+			isa = PBXGroup;
+			children = (
+				DC3F09492516442D00AE5D8F /* ConstantsHeader.h */,
+				DC3F09462516435F00AE5D8F /* UIColor+ColorName.h */,
+				DC3F09472516435F00AE5D8F /* UIColor+ColorName.m */,
+				DC3F09342516312900AE5D8F /* UIColor+Adapter.h */,
+				DC3F09352516312900AE5D8F /* UIColor+Adapter.m */,
+				DC3F09372516313A00AE5D8F /* UIView+Adapter.h */,
+				DC3F09382516313A00AE5D8F /* UIView+Adapter.m */,
+				DC3F093D2516319200AE5D8F /* NSString+Adapter.h */,
+				DC3F093E2516319200AE5D8F /* NSString+Adapter.m */,
+				DC3F093A2516316D00AE5D8F /* AdapterManager.h */,
+				DC3F093B2516316D00AE5D8F /* AdapterManager.m */,
+				DC3F09402516329C00AE5D8F /* DarkModeAdapter.bundle */,
+			);
+			path = Adapter;
+			sourceTree = "<group>";
+		};
+		DC80C4942515E33100344E4A = {
+			isa = PBXGroup;
+			children = (
+				DC80C49F2515E33100344E4A /* DarkModeAdapter */,
+				DC80C49E2515E33100344E4A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC80C49E2515E33100344E4A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC80C49D2515E33100344E4A /* DarkModeAdapter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC80C49F2515E33100344E4A /* DarkModeAdapter */ = {
+			isa = PBXGroup;
+			children = (
+				DC3F09332516310F00AE5D8F /* Adapter */,
+				DC80C4A02515E33100344E4A /* AppDelegate.h */,
+				DC80C4A12515E33100344E4A /* AppDelegate.m */,
+				DC80C4A32515E33100344E4A /* SceneDelegate.h */,
+				DC80C4A42515E33100344E4A /* SceneDelegate.m */,
+				DC80C4A62515E33100344E4A /* ViewController.h */,
+				DC80C4A72515E33100344E4A /* ViewController.m */,
+				DC80C4A92515E33100344E4A /* Main.storyboard */,
+				DC80C4AC2515E33400344E4A /* Assets.xcassets */,
+				DC3F0931251630CE00AE5D8F /* Color.xcassets */,
+				DC80C4AE2515E33400344E4A /* LaunchScreen.storyboard */,
+				DC80C4B12515E33400344E4A /* Info.plist */,
+				DC80C4B22515E33400344E4A /* main.m */,
+			);
+			path = DarkModeAdapter;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC80C49C2515E33100344E4A /* DarkModeAdapter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC80C4B62515E33400344E4A /* Build configuration list for PBXNativeTarget "DarkModeAdapter" */;
+			buildPhases = (
+				DC80C4992515E33100344E4A /* Sources */,
+				DC80C49A2515E33100344E4A /* Frameworks */,
+				DC80C49B2515E33100344E4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DarkModeAdapter;
+			productName = DarkModeAdapter;
+			productReference = DC80C49D2515E33100344E4A /* DarkModeAdapter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC80C4952515E33100344E4A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = GuiZhouNongXin;
+				TargetAttributes = {
+					DC80C49C2515E33100344E4A = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = DC80C4982515E33100344E4A /* Build configuration list for PBXProject "DarkModeAdapter" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC80C4942515E33100344E4A;
+			productRefGroup = DC80C49E2515E33100344E4A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC80C49C2515E33100344E4A /* DarkModeAdapter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC80C49B2515E33100344E4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC80C4B02515E33400344E4A /* LaunchScreen.storyboard in Resources */,
+				DC3F0932251630CE00AE5D8F /* Color.xcassets in Resources */,
+				DC3F09412516329C00AE5D8F /* DarkModeAdapter.bundle in Resources */,
+				DC80C4AD2515E33400344E4A /* Assets.xcassets in Resources */,
+				DC80C4AB2515E33100344E4A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC80C4992515E33100344E4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC80C4A82515E33100344E4A /* ViewController.m in Sources */,
+				DC3F093F2516319200AE5D8F /* NSString+Adapter.m in Sources */,
+				DC80C4A22515E33100344E4A /* AppDelegate.m in Sources */,
+				DC3F09362516312900AE5D8F /* UIColor+Adapter.m in Sources */,
+				DC80C4B32515E33400344E4A /* main.m in Sources */,
+				DC3F09392516313A00AE5D8F /* UIView+Adapter.m in Sources */,
+				DC80C4A52515E33100344E4A /* SceneDelegate.m in Sources */,
+				DC3F093C2516316D00AE5D8F /* AdapterManager.m in Sources */,
+				DC3F09482516435F00AE5D8F /* UIColor+ColorName.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DC80C4A92515E33100344E4A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC80C4AA2515E33100344E4A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DC80C4AE2515E33400344E4A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC80C4AF2515E33400344E4A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC80C4B42515E33400344E4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DC80C4B52515E33400344E4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC80C4B72515E33400344E4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 62S4FZU9H9;
+				INFOPLIST_FILE = DarkModeAdapter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.china.DarkModeAdapter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC80C4B82515E33400344E4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 62S4FZU9H9;
+				INFOPLIST_FILE = DarkModeAdapter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.china.DarkModeAdapter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC80C4982515E33100344E4A /* Build configuration list for PBXProject "DarkModeAdapter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC80C4B42515E33400344E4A /* Debug */,
+				DC80C4B52515E33400344E4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC80C4B62515E33400344E4A /* Build configuration list for PBXNativeTarget "DarkModeAdapter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC80C4B72515E33400344E4A /* Debug */,
+				DC80C4B82515E33400344E4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC80C4952515E33100344E4A /* Project object */;
+}
