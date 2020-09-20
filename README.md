@@ -31,7 +31,7 @@ iOS暗黑模式适配懒人版
         [[AdapterManager sharedInstance] configDarkModeColorBundleName:@"DarkModeAdapter"];
         //    [AdapterManager sharedInstance].shouldFollowSystemMode = NO;
         return YES;
-}
+    }
     ```
 - 2.在给控件赋值颜色的时候调用扩展方法
     
@@ -105,7 +105,7 @@ iOS暗黑模式适配懒人版
                 [self configSubViewsShadow];
             }
         }
-}
+    }
     ```
 
 ### 至于图标适配
